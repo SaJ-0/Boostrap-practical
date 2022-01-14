@@ -1,0 +1,106 @@
+body{
+  background-color:#ADD8E6;
+
+}
+
+hr{
+  border-style: none;
+  background-color: pink;
+  height : 2px;
+}
+
+h3{
+  color: #468284;
+
+}
+
+h4{
+
+}
+
+.Courses{
+
+  text-decoration: none;
+}
+
+.other{
+
+  text-decoration: underline;
+}
+
+table{
+  text-align: center;
+}
+
+.table{
+  text-align: center;
+  margin-top:   0 ;
+}
+
+.container{
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.header {
+padding: 15px;
+}
+
+.header__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+padding: 30px;
+border-bottom: 2px solid#FFC0CB	;
+
+}
+
+.nav{
+  display: flex;
+font-size: 15px;
+font-weight: 1600;
+text-transform: uppercase;
+}
+
+.nav__link{
+  margin-left: 50px;
+color:#dark;
+text-decoration:none;
+opacity: 0.75;
+
+transition: opacity 0.1s
+linear;
+
+}
+
+.nav__link{
+  color:gray;
+}
+
+.nav__link:first-child{
+  margin-left: 0;
+}
+
+.nav__link:hover{
+  opacity: 1;
+  text-decoration: none;
+}
+
+.header__logo{
+  font-size: 30px;
+  font-weight: 1600;
+  color:#blue;
+}
+
+.Courses{
+  font-size: 15px;
+  text-decoration: underline;
+  color: #blue;
+  border-top: 2px solid pink;
+}
+
+.container-fluid{
+  padding: 5% 10%;
+  text-align: center;
+}
